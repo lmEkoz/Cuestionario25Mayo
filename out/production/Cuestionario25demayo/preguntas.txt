@@ -1,0 +1,37 @@
+Pregunta 1
+¿Que significa relación de agregación?
+Entender un objeto como una composicion de mas objetos
+Ejemplo: Un objeto (Carro) compuesto de otros objetos (motor, ruedas, ventanas, etc)
+
+
+Pregunta 2
+¿Que significa relación de composición?
+Un objeto al que se le suma estructuralmente, este tiene metodos de destruccion de los objetos con los que es formado
+
+
+Pregunta 3
+¿Como se da acceso a una superclase a partir de una subclase?
+Con el uso de campos protegidos
+
+Pregunta 4
+¿Como sabe el compilador que se esta haciendo un herencia?
+Al utilizar la palabra reservada extends
+
+
+Pregunta 5
+Si tenemos una superclase y dos subclases. ¿Como se realiza la herencia múltiple?
+Combinando el uso de la palabra reservada extends y implements
+
+Pregunta 6
+¿Cuál es la condición para marcar a una clase como clase abstracta?
+El uso de la palabra reservada abstract el cual solo podra ser usado por todo las clases que la extiendan
+
+
+Pregunta 7
+¿Como deben ser los métodos dentro de la interface?
+Todos los métodos deben ser publicos
+
+
+Pregunta 8
+En un programa multiclase. ¿Como puedo accesar al ambito de la otra clase?
+Haciendo uso de los metodos protegidos podremos usar los metodos de la otra clase dentro del mismo paquetes
